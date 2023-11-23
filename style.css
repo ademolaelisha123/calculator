@@ -1,0 +1,92 @@
+#firstnumber {
+    width: 9em;
+    height: 2em;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 0.4em;
+    text-align: center;
+    border: 2px solid brown;
+    margin-left: 2em;
+}
+
+input {
+    margin-top: 0em;
+}
+
+input:focus {
+    outline-color: blueviolet;
+}
+
+#secondnumber {
+    width: 9em;
+    height: 2em;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 0.4em;
+    text-align: center;
+    border: 2px solid brown;
+}
+
+@media screen and (max-width:490px) {
+ #secondnumber {
+    margin-top: 1em;
+    margin-left: 4em;
+ }    
+}
+
+@media screen and (max-width:690px) {
+    #secondnumber {
+       margin-top: 1em;
+       margin-left: 2em;
+    }    
+   }
+   
+
+#add {
+    width: 5em;
+    height: 5em;
+    font-weight: bold;
+    border-radius: 0.4em;
+    text-align: center;
+    background-color: red;
+    border: none;
+    font-size: 2em;
+}
+
+#sub {
+    width: 5em;
+    height: 5em;
+    font-weight: bold;
+    border-radius: 0.4em;
+    text-align: center;
+    background-color: red;
+    border: none;
+    font-size: 2em;
+}
+
+#mul {
+    width: 5em;
+    height: 5em;
+    font-weight: bold;
+    border-radius: 0.4em;
+    text-align: center;
+    background-color: red;
+    border: none;
+    font-size: 2em;
+}
+
+#divi {
+    width: 5em;
+    height: 5em;
+    font-weight: bold;
+    border-radius: 0.4em;
+    text-align: center;
+    background-color: red;
+    border: none;
+    font-size: 2em;
+}
+
+#guru {
+margin-top: 4em;
+margin-left: 2em;
+}
